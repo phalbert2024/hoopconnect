@@ -1,4 +1,4 @@
-# HoopConnect Configuration
+// HoopConnect Configuration
 export default {
   firebase: {
     apiKey: process.env.FIREBASE_API_KEY,

@@ -55,7 +55,7 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
     try {
       await FirebaseAuthService.signOut();
       navigation.navigate('Login');
-    } catch (error) {
+    } catch {
       Alert.alert('Error', 'Failed to sign out');
     }
   };
