@@ -137,3 +137,33 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# React Native
+*.jsbundle
+
+# OSX
+.DS_Store
+
+# Android/IntelliJ
+android/.idea
+android/.gradle
+android/local.properties
+android/*.iml
+android/*.hprof
+android/.cxx/
+android/app/.cxx/
+*.apk
+
+# iOS
+ios/Pods/
+ios/**/*.xcworkspace/xcuserdata/
+ios/build/
+*.ipa
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~.nib

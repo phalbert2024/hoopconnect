@@ -1,0 +1,38 @@
+{
+  "name": "hoopconnect",
+  "version": "1.0.0",
+  "description": "A mobile app connecting basketball players to nearby courts and pickup games. React Native app with Firebase backend, real-time messaging, and freemium subscription model.",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-firebase/app": "^23.7.0",
+    "@react-native-firebase/auth": "^23.7.0",
+    "@react-navigation/bottom-tabs": "^7.9.0",
+    "@react-navigation/native": "^7.1.26",
+    "@react-navigation/stack": "^7.6.13",
+    "react": "18.2.0",
+    "react-native": "^0.73.0",
+    "react-native-gesture-handler": "^2.30.0",
+    "react-native-maps": "^1.26.20",
+    "react-native-reanimated": "^4.2.1",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "^4.19.0"
+  },
+  "devDependencies": {
+    "@react-native/eslint-config": "^0.83.1",
+    "@react-native/metro-config": "^0.83.1",
+    "@react-native/typescript-config": "^0.83.1",
+    "@types/react": "^19.2.7",
+    "@types/react-native": "^0.72.8",
+    "typescript": "^5.9.3"
+  }
+}
